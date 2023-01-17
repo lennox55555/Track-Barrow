@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="sign-up-box">
+    <h1 id="header">Sign Up</h1>
+
+    <form action="connect.php" method="post" id="form">
+        <label><input id="name" name="name" placeholder="Name"></label>
+        <label><input id="username" name="username" placeholder="Username"></label>
+        <label><input id="password" name="password" placeholder="Password"></label>
+        <label><input id="email" name="email" placeholder="Email"></label>
+        <label><input id="phone" name="phone" placeholder="Phone Number"></label>
+        <label id="sub-text"><input id="terms-conditions" name="accept" value="y" type="checkbox">I read and agree to the <a id="terms-link" href="" >terms & conditions</a></label>
+        <button id="create-account">Create Account</button>
+    </form>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
