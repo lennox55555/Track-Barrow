@@ -1,0 +1,109 @@
+body {
+    background-color: #DB3069;
+
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+
+}
+
+#header {
+    margin-top: 75px;
+    padding-top: 50px;
+    font-family: Public Sans;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+#sign-up-box {
+    margin: auto;
+    border-radius: 15px;
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    box-shadow: 10px 10px 80px 2px #240115;
+
+
+}
+
+.input {
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: dodgerblue;
+}
+
+#name {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 1px 5px 1px #240115;
+}
+
+#username {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 1px 5px 1px #240115;
+}
+
+#password {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 1px 5px 1px #240115;
+}
+
+#email {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 1px 5px 1px #240115;
+}
+
+#phone {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 1px 5px 1px #240115;
+}
+
+#terms-conditions {
+
+}
+
+#sub-text {
+    padding-top: 5px;
+    font-family: "Public Sans";
+    font-size: 10pt;
+}
+
+#terms-link {
+    color: #DB3069;
+    text-decoration: none;
+}
+
+#create-account {
+    margin-top: 25px;
+    font-family: "Public Sans";
+    color: white;
+    background-image: linear-gradient(to right, #DB3069, #240115);
+    border-radius: 15px;
+    width: 175px;
+    height: 25px;
+    border: none;
+}
